@@ -1,5 +1,7 @@
 # Mess Management System — Documentation Workspace
 
+![Mess Management System Demo](./Demo.png)
+
 স্বাগতম! এই ওয়ার্কস্পেসটিতে মেস ম্যানেজমেন্ট সিস্টেমের জন্য **ওয়েবসাইট (Web Portal)** এবং **মোবাইল অ্যাপস (Mobile App)**-এর সমস্ত ইনস্ট্রাকশন ও আর্কিটেকচার আলাদা দুটি ফোল্ডারে সুবিন্যস্ত করা হয়েছে:
 
 ---
@@ -40,8 +42,12 @@
 
 মূল কম্বাইন্ড ডকুমেন্টস ও ব্লুপ্রিন্ট ব্যাকআপ হিসেবে সংরক্ষিত রয়েছে।
 
-### Run Font End
+### 🚀 Run Front End (ওয়েবসাইট চালু করার নিয়ম)
 
+```bash
 cd "Mess Website"
-or
-cd Mess\ Website
+npm install
+npm run dev
+```
+
+ব্রাউজারে ভিজিট করুন: [http://localhost:3000](http://localhost:3000)
