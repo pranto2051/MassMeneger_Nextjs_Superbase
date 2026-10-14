@@ -24,16 +24,23 @@ Mess Apps মূলত মেসের **সাধারণ সদস্য (Mem
 
 ---
 
-## 🚀 দ্রুত শুরু (Quick Start)
-1. Expo প্রজেক্ট ইনিশিয়ালাইজ করুন:
+## 🚀 মোবাইল অ্যাপ রান করার নিয়ম (Running the Mobile App)
+
+প্রজেক্টটি সরাসরি `Mess Apps` ডিরেক্টরিতে কমপ্লিট করা রয়েছে। রান করতে:
+
 ```bash
-npx create-expo-app@latest MessApp -t blank-typescript
+cd "Mess Apps"
+npm install
+npm run start
 ```
-2. প্রয়োজনীয় প্যাকেজ ইনস্টল করুন:
-```bash
-npx expo install @supabase/supabase-js expo-secure-store expo-image-picker
-```
-3. `.env` ফাইলে শুধুমাত্র পাবলিক কী কনফিগার করুন:
+
+### প্ল্যাটফর্ম অনুযায়ী প্রিভিউ:
+- **Android এমুলেটর / ডিভাইসে**: কীবোর্ডে `a` চাপুন
+- **iOS সিমুলেটর / ডিভাইসে**: কীবোর্ডে `i` চাপুন
+- **ওয়েব ব্রাউজারে ইনস্ট্যান্ট টেস্ট**: কীবোর্ডে `w` চাপুন বা `npm run web`
+- **Expo Go অ্যাপ দিয়ে ফোনে দেখতে**: টার্মিনালের QR কোডটি Expo Go দিয়ে স্ক্যান করুন
+
+### এনভায়রনমেন্ট কনফিগারেশন (`.env`):
 ```bash
 EXPO_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 EXPO_PUBLIC_SUPABASE_ANON_KEY=your-anon-key

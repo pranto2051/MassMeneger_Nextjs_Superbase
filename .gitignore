@@ -26,8 +26,29 @@ dist/
 .env.production.local
 *.env
 **/*.env
+**/*.env.*
 **/*.env.local
 !*.env.example
+
+# Supabase Credentials & Local Secret Files
+Superbase.txt
+*Superbase*
+*.secret
+*.secrets
+*credentials*
+secret.txt
+secrets.txt
+
+# Expo & Mobile Native Outputs
+.expo/
+**/.expo/
+android/
+**/android/
+ios/
+**/ios/
+expo-env.d.ts
+**/*.tsbuildinfo
+
 
 # Debug Logs
 npm-debug.log*

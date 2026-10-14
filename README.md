@@ -51,3 +51,23 @@ npm run dev
 ```
 
 ব্রাউজারে ভিজিট করুন: [http://localhost:3000](http://localhost:3000)
+
+---
+
+### 📱 Run Mobile App (মোবাইল অ্যাপ চালু করার নিয়ম)
+
+```bash
+cd "Mess Apps"
+npm install
+npm run start
+```
+
+- **Android এ দেখতে**: কীবোর্ডে `a` চাপুন
+- **iOS এ দেখতে**: কীবোর্ডে `i` চাপুন
+- **ব্রাউজারে সরাসরি দেখতে**: কীবোর্ডে `w` চাপুন
+- **Expo Go দিয়ে রিয়েল ডিভাইসে দেখতে**: টার্মিনালের কিউআর কোড স্ক্যান করুন
+
+# Mobile App Comand
+
+cd "/Users/pranto/Desktop/Mass Manager/Mess_Management_Documentation/Mess Apps"
+npm run start
